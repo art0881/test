@@ -1,66 +1,35 @@
-.slideshow-container{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+/* ПОИСКОВИК */
+/* #myInput{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 5px;
+    margin-bottom: 12px;
+    border: 1px solid black;
 }
-
-.prev, .next {
-    cursor: pointer;
-    position: relative;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: black;
-    font-weight: bold;
+#myUl{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#myUl li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color:rgba(223, 214, 214, 0.527);
+    padding: 12px;
+    text-decoration: none;
     font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 0 0 3px;
+    color: black;
+    display: block;
 }
-.next{
-    right: 0;
-    border-radius: 3px 0 0 3px;
+#myUl li a.header{
+    background-color: grey;
+    cursor: default;
 }
-.prev:hover, .next:hover{
-    background-color: black;
-}
+#myUl li a:hover:not(.header){
+    background-color: #eee;
+} */
 
-.text{
-    color: white;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-.dot{
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    
-}
-.active, dot:hover{
-    background-color: black;
-}
-.fade{
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade{
-    from{opacity: 4;}
-    top{opacity: 1;}
-
-}
-@keyframes fade{
-    from{opacity: 4;}
-    to{opacity: 1;}
-}
+/* ТАБЫ */
 
 /* 
 
