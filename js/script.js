@@ -1,32 +1,53 @@
-function plus(){
-    var num1, num2,result;
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-    num2 = document.getElementById('n2').value;
-    num2 = parseInt(num2);
-    result = num1 + num2;
-    document.getElementById('out').innerHTML = result;
-}
-function minus(){
-    var num1, num2,result;
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-    num2 = document.getElementById('n2').value;
-    num2 = parseInt(num2);
-    result = num1 - num2;
-    document.getElementById('out').innerHTML = result;
-}
-function multiply(){
-    var num1, num2,result;
-    num1 = document.getElementById('n1').value;
-    num1 = parseInt(num1);
-    num2 = document.getElementById('n2').value;
-    num2 = parseInt(num2);
-    result = num1 * num2;
-    document.getElementById('out').innerHTML = result;
-}
+// МОДАЛЬНОЕ ИЗОБРОЖЕНИЕ
+
+// var modal = document.getElementById('myModal');
+// var img = document.getElementById('myImg');
+// var modalImg = document.getElementById('img01');
+// var captionText = document.getElementById('caption');
+
+// img.onclick=function(){
+//     modal.style.display="block";
+//     modalImg.src = this.src;
+//     captionText.innerHTML = this.alt;
+// }
+
+// var span = document.getElementsByClassName('close')[0]
+// span.onclick = function(){
+//     modal.style.display = "none";
+// }
+
+// КАЛЬКУЛЯТОР
+
+// function plus(){
+//     var num1, num2,result;
+//     num1 = document.getElementById('n1').value;
+//     num1 = parseInt(num1);
+//     num2 = document.getElementById('n2').value;
+//     num2 = parseInt(num2);
+//     result = num1 + num2;
+//     document.getElementById('out').innerHTML = result;
+// }
+// function minus(){
+//     var num1, num2,result;
+//     num1 = document.getElementById('n1').value;
+//     num1 = parseInt(num1);
+//     num2 = document.getElementById('n2').value;
+//     num2 = parseInt(num2);
+//     result = num1 - num2;
+//     document.getElementById('out').innerHTML = result;
+// }
+// function multiply(){
+//     var num1, num2,result;
+//     num1 = document.getElementById('n1').value;
+//     num1 = parseInt(num1);
+//     num2 = document.getElementById('n2').value;
+//     num2 = parseInt(num2);
+//     result = num1 * num2;
+//     document.getElementById('out').innerHTML = result;
+// }
 
 // ПОИСКОВИК
+
 // function myFunction(){
 //     var input,filter,ul,li,p,a,i;
 //     input = document.getElementById('myInput');
@@ -39,14 +60,13 @@ function multiply(){
 //         a = li[i].getElementsByTagName('a')[0];
 //         if (a.innerHTML.toUpperCase().indexOf(filter)>-1){
 //             li[i].style.display = "";
-            
+
 //         } else {
 //             li[i].style.display = "none";
-            
+
 //         }
 //     }
 // }
-
 
 // var tab;
 // var tabContent;
@@ -76,8 +96,7 @@ function multiply(){
 // }
 // }
 
-// // НАВИГАЦИЯ 
-
+// // НАВИГАЦИЯ
 
 // function showTabsContent(b){
 //     if(tabContent[b].classList.contains('hide')){
@@ -107,13 +126,11 @@ function multiply(){
 //     modal.style.display = "none";
 //      }
 
-
-
 //      function f1 (){
 //         const ch = document.getElementById('one');
 //      if(ch.checked){
 //      document.getElementById('te').innerHTML="есть нажатие";
-     
+
 //      } else {
 //         document.getElementById('te').innerHTML="нет нажатие";
 //      }
@@ -129,7 +146,7 @@ function multiply(){
 //     link.addEventListener("click", function (event){
 //       document.querySelector('#spider').innerHTML=('человек паук');
 //     })
-   
+
 //     // блоки при клике пишут блок в консоле
 // const block1 = document.querySelector('.block1');
 // const block2 = document.querySelector('.block2');
@@ -152,10 +169,8 @@ function multiply(){
 
 // }
 
-
 //         // менят цвет блока
 //         function redblue() {
 //             const red = document.getElementById('red');
 //             red.classList.toggle('block__blue');
 //          }
- 
