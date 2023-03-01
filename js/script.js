@@ -1,3 +1,76 @@
+// ВСПЛЫВАЮЩЕЕ ОКНО
+
+// function myFunction(){
+//     var x = document.getElementById("snackbar");
+//     x.className ="show";
+//     setTimeout(function(){
+//         x.className=x.className.replace("show","");
+//     },3000);
+// }
+
+
+// СКРЫВАЮЩИЙ БЛОК
+
+// function myFunction(){
+//     var x = document.getElementById('myDiv');
+//     if(x.style.display == 'none'){
+//         x.style.display = 'block';
+//     } else {
+//         x.style.display = 'none';
+//     }
+// }
+// var close = document.getElementsByClassName('closebtn');
+// var i;
+// for(i=0;i<close.length;i++){
+//     close[i].onclick = function(){
+//         var div = this.parentElement;
+//         div.style.opacity="0";
+//         setTimeout(function(){
+//             div.style.display="none";
+//         }, 600);
+//     }
+// }
+
+// ПУБИЛКАЦИИ
+
+// var myNodelist = document.getElementsByTagName('li');
+// var i;
+// for(i=0; i<myNodelist.length;i++){
+//     var span = document.createElement("span");
+//     var txt = document.createTextNode("\u00D7");
+//     span.className="close";
+//     span.appendChild(txt);
+//     myNodelist[i].appendChild(span);
+// }
+
+// var close = document.getElementsByClassName("close");
+//     var i;
+//     for(i=0; i < close.length;i++){
+//         close[i].onclick = function(){
+//             var div = this.parentElement;
+//             div.style.display = "none";
+//         }
+//     }
+
+//   var list = document.querySelector('ul');
+//   list.addEventListener('click',function(ev){
+//     if(ev.target.tagName === 'li'){
+//         ev.target.classList.toggle('checked');
+//     }
+//   },false);
+
+//   function newElement(){
+//     var li = document.createElement('li');
+//     var inputValue = document.getElementById('myInput').value;
+    
+//     var t = document.createTextNode(inputValue);
+//     li.appendChild(t);
+//     if(inputValue === ''){
+//         alert('поле пустое')
+//     } else {
+//         document.getElementById('myUL').appendChild(li);
+//     }
+//   }
 
 
 // ОТКРЫВАЮЩИЕ БЛОКИ

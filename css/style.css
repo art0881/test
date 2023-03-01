@@ -1,3 +1,119 @@
+/* ВСПЛЫВАЮЩЕЕ ОКНО */
+
+/* #snackbar{
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+}
+#snackbar.show{
+    visibility: visible;
+} */
+
+
+
+/* СКРЫВАЮЩИЙ БЛОК */
+
+/* #myDiv{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: green;
+    margin-top: 20px;
+}
+.alert{
+    padding: 20px;
+    background-color: grey;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.5s;
+    margin-bottom: 15px;
+}
+.alert.s{
+    background-color: red;
+}
+.alert.i{
+    background-color: blue;
+}
+.closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: o.3s;
+}
+.closebtn:hover{
+    color: blanchedalmond;
+}
+ */
+
+
+/* ПУБЛИКАЦИИ */
+
+/* *{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s
+
+
+}
+ul li.checked{
+    background:#888 ;
+    color: #fff;
+    text-decoration: line-through;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+.header{
+    background-color: aqua;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+input{
+    border: none;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+}
+.addBtn{
+    padding: 10px;
+    width: 25%;
+    background: green;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+ */
+
+
 
 
 /* ОТКРЫВАЮЩИЕ БЛОКИ */
