@@ -1,4 +1,4 @@
-// ВСПЛЫВАЮЩЕЕ ОКНО
+// // ВСПЛЫВАЮЩЕЕ ОКНО
 
 // function myFunction(){
 //     var x = document.getElementById("snackbar");
@@ -9,7 +9,7 @@
 // }
 
 
-// СКРЫВАЮЩИЙ БЛОК
+// // СКРЫВАЮЩИЙ БЛОК
 
 // function myFunction(){
 //     var x = document.getElementById('myDiv');
@@ -31,7 +31,7 @@
 //     }
 // }
 
-// ПУБИЛКАЦИИ
+// // ПУБИЛКАЦИИ
 
 // var myNodelist = document.getElementsByTagName('li');
 // var i;
@@ -73,7 +73,7 @@
 //   }
 
 
-// ОТКРЫВАЮЩИЕ БЛОКИ
+// // ОТКРЫВАЮЩИЕ БЛОКИ
 
 // var acc = document.getElementsByClassName('accordion');
 // var i;
@@ -84,7 +84,7 @@
 //     }
 // }
 
-// МОДАЛЬНОЕ ИЗОБРОЖЕНИЕ
+// // МОДАЛЬНОЕ ИЗОБРОЖЕНИЕ
 
 // var modal = document.getElementById('myModal');
 // var img = document.getElementById('myImg');
@@ -102,7 +102,7 @@
 //     modal.style.display = "none";
 // }
 
-// КАЛЬКУЛЯТОР
+// // КАЛЬКУЛЯТОР
 
 // function plus(){
 //     var num1, num2,result;
@@ -132,7 +132,7 @@
 //     document.getElementById('out').innerHTML = result;
 // }
 
-// ПОИСКОВИК
+// // ПОИСКОВИК
 
 // function myFunction(){
 //     var input,filter,ul,li,p,a,i;
