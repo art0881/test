@@ -32,3 +32,5 @@ if(content.classList.contains('content-hidden')){
 //  array.forEach((el,i){
 //     p.textContent=el;
 //  });
+
+document.querySelectorAll('[data-name="accordeon"]')
