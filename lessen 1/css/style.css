@@ -1,6 +1,10 @@
+h1{
+    text-align: center;
+}
+
 /* ВСПЛЫВАЮЩЕЕ ОКНО */
 
-/* #snackbar{
+#snackbar{
     visibility: hidden;
     min-width: 250px;
     margin-left: -125px;
@@ -16,13 +20,13 @@
 }
 #snackbar.show{
     visibility: visible;
-} */
+}
 
 
 
 /* СКРЫВАЮЩИЙ БЛОК */
 
-/* #myDiv{
+#myDiv{
     width: 100%;
     padding: 50px 0;
     text-align: center;
@@ -56,12 +60,12 @@
 .closebtn:hover{
     color: blanchedalmond;
 }
- */
+
 
 
 /* ПУБЛИКАЦИИ */
 
-/* *{
+*{
     box-sizing: border-box;
 }
 ul{
@@ -86,6 +90,7 @@ ul li.checked{
 .close{
     position: absolute;
     right: 0;
+   
     top: 0;
     padding: 12px 16px 12px 16px;
 }
@@ -96,7 +101,7 @@ ul li.checked{
     text-align: center;
 }
 input{
-    border: none;
+    border: 1px solid rgb(221, 217, 217);
     width: 75%;
     padding: 10px;
     font-size: 16px;
@@ -111,7 +116,7 @@ input{
     cursor: pointer;
     transition: 0.3s;
 }
- */
+
 
 
 
@@ -119,8 +124,8 @@ input{
 /* ОТКРЫВАЮЩИЕ БЛОКИ */
 
 
-/* button.accordion{
-    background-color: #eee;
+button.accordion{
+    background-color: red;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -137,12 +142,12 @@ div.panel{
 }
 div.panel.show{
     display: block;
-} */
+}
 
 
 /* МОДАЛЬНОЕ ИЗОБРАЖЕНИЕ */
 
-/* #myimg{
+#myimg{
     border-radius: 5px;
     
     transition: 0.3s;
@@ -172,7 +177,7 @@ div.panel.show{
     padding: 10px 0;
     height: 350px;
 }
-.close{
+.close3{
     position: absolute;
     top: 15px;
     cursor: pointer;
@@ -182,11 +187,11 @@ div.panel.show{
     font-weight: bold;
     transition: 0.3s;
 }
- */
+
 
 
 /* ПОИСКОВИК */
-/* #myInput{
+#myInput{
     width: 100%;
     font-size: 16px;
     padding: 12px 20px 12px 5px;
@@ -214,11 +219,9 @@ div.panel.show{
 }
 #myUl li a:hover:not(.header){
     background-color: #eee;
-} */
+}
 
 /* ТАБЫ */
-
-/* 
 
 
 #tabs .tab{
@@ -226,7 +229,7 @@ div.panel.show{
     padding: 5px 10px;
     cursor: pointer;
     position: relative;
-    z-index: 5;
+    
 }
 #tabs .whiteborder{
     border: 1px solid #000;
@@ -248,10 +251,10 @@ div.panel.show{
 }
 #tabs .show{
     display: block;
-}  */
+} 
 
 /* НАВИГАЦИЯ  */
-/* 
+
 .modal2{
     display: none;
     position: fixed;
@@ -263,20 +266,38 @@ div.panel.show{
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.26);
 }
-.modal-content{
+.modal-content2{
     background-color: aqua;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid gray;
     width: 80%;
 }
-.close{
-    color: #aaa;
+.close2{
+    color: #000000;
     float:right;
     font-size: 28px;
     font-weight: bold;
 }
 
+/* МЕНЯЕТ ЦВЕТ БЛОКА */
+
+.block__red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+.block__blue{
+background-color: blue;
+}
+
+/* ЧЕКБОКС ДЛЯ НЕТ НАЖАТИЯ  */
+
+.cv{
+    width: 12px;
+}
+
+/* ПРИ КЛИПЕ ПИШЕТ КАКОЙ БЛОК НАЖАЛИ В КОНСОЛЬ */
 
 .block1{
     background-color: red;
@@ -291,24 +312,4 @@ div.panel.show{
 
 }
 
-.block__red{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-}
-.block__blue{
-background-color: blue;
-}
-.modal{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-.hide{
-    display: none;
-}
-.show{
-    display: block;
-}  */
 
