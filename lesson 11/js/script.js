@@ -12,9 +12,16 @@ const person=[{
 }
 ];
 
-const getEmail = [];
 
-person.forEach(elem=>{
-    getEmail.push(elem.name);
-});
-console.log(getEmail);
+const getEmail = [];
+person.forEach((elm)=>{
+    getEmail.push(elm.name);
+})
+console.log(getEmail.join(" "));
+document.write(getEmail);
+/// часть 2 
+
+const list = fetch('https://api.sampleapis.com/countries/countries');
+console.log(list);
+
+
