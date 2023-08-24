@@ -38,9 +38,18 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${search_i
         const temperature = Math.round(data.main.temp);
         const name = data.name;
         document.querySelector("#weater").innerHTML = `<h3>Температура: ${temperature} C</h3>`;
-    } );
+    } ).catch((err)=>{
+     
+        if (search_input.length == 0) {
+            result.innerHTML = `<h3>Строка пустая</h3>`;
+            console.log("Строка пустая");
+          } else {
+            result.innerHTML = `<h3>такой страны нет</h3>`;
+            console.log("такой страны нет");
+          }
+    });
 });
-search_btn.addEventListener("click", ()=>{
+search.addEventListener("input", ()=>{
     let search_input = search.value;
     fetch(`https://restcountries.com/v3.1/name/${search_input}?fullText=true`)
     .then(res=>res.json())

@@ -1,0 +1,16 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  
+}
+.highlight{
+  color: red;
+}
+.suggestion {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background-color: #f0f0f0;
+}

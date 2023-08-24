@@ -1,0 +1,33 @@
+.block{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 67%;
+}
+.grey{
+    background-color: grey;  
+}
+.yellow{
+    background-color: yellow;
+}
+container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    cursor: pointer;
+    background-color: rgb(36, 110, 249);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+.button:hover{
+    background-color: rgb(36, 93, 179);
+}
+.button:active{
+    background-color: rgb(180, 202, 235);
+}
