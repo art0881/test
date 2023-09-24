@@ -81,3 +81,43 @@ button.addEventListener("click",()=>{
 //   }
 // }
 
+// добавляем пост 
+
+
+// // Выполнение POST-запроса с использованием fetch
+let set = document.querySelector("#set");
+set.addEventListener("click",()=>{
+fetch(`http://192.168.0.106:8000/api/links/`, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify(
+    {
+      start_id: 1,
+  end_id: 0,
+  description: "Пидар читае смс",
+  color: "Мухтар хуевый бекендер"
+    }
+  ),
+})
+  .then(response => response.json())
+  .then(data => console.log('Пользователь успешно добавлен:', data))
+  .catch(error => console.error('Ошибка при добавлении пользователя:', error));
+
+});
+
+// Выполнение Get-запроса с использованием fetch
+let get = document.querySelector("#get");
+let getText = document.querySelector("#getText");
+get.addEventListener("click",()=>{
+fetch(`http://192.168.0.106:8000/api/links/`)
+.then(response => response.json())
+.then(data=>{
+  getText.innerHTML=`
+  <div>${data[2].description}</div>
+  `
+})
+
+
+});
